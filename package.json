@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.4.0",
+    "selenium-webdriver": "^4.21.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive --timeout 60000"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0"
+  },
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "l1_1.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
