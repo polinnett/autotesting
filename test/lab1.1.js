@@ -24,7 +24,7 @@ async function func() {
       remaining--;
       await driver.sleep(1000);
     } //цикл для выполнения действий на странице , включая щелчки на элементах, остановку и увеличение/уменьшение переменных remaining и total
-    await driver.findElement(By.id("sampletodotext")).sendKeys("Хафизова Полина Дмитриевна");
+    await driver.findElement(By.id("sampletodotext")).sendKeys("Хафизова Полина");
     await driver.findElement(By.id("addbutton")).click();
     total++;
     remaining++; //ввод текста и нажатия, увеличение переменных remaining и total

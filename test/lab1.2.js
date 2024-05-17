@@ -23,6 +23,10 @@ class TodoPage {
   async addTodo(text) {
     await this.driver.findElement(By.id('sampletodotext')).sendKeys(text);
     await this.driver.findElement(By.id('addbutton')).click();
+    const fd = await this.driver.findElement(By.xpath('/html/body/div/div/div/ul/li[6]/span'));
+    if (fd) {
+      await this.driver.findElement(By.xpath('/html/body/div/div/div/ul/li[6]/span')).click();
+    }
   }
 }
 
