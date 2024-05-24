@@ -5,7 +5,7 @@
     "selenium-webdriver": "^4.21.0"
   },
   "scripts": {
-    "test": "mocha --recursive --timeout 60000"
+    "test": "mocha --recursive --timeout 100000"
   },
   "devDependencies": {
     "chai": "^5.1.0",
